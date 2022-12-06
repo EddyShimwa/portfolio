@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portforio</title>
+    <title>My Brand</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,76 +16,155 @@
   <body>
     <header>
       <nav>
-        <a href="#home"><h3>Pray Eddy</h3></a>
-        <img src="images/Union.svg" />
+        <div id="logo"><a href="#">Pray Eddy</a></div>
+        <img class="hamburger" src="images/Union.svg" />
+        <div class="nav-list">
+          <a href=""><span>Portfolio</span></a>
+          <span>Works</span>
+          <span>My Blogs</span>
+          <span>About</span>
+          <span>Contact</span>
+          <span id="Login">Login</span>
+        </div>
       </nav>
+      <ul class="mobile-nav">
+        <span id="cross-icon"
+          ><img src="./images/cross-icon.png" alt="X"
+        /></span>
+        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-link" href="#portfolio">Works</a></li>
+        <li><a class="nav-link" href="#portfolio">Blogs</a></li>
+        <li><a class="nav-link" href="#about">About Me</a></li>
+        <li><a class="nav-link" href="#contact">Contact Me</a></li>
+        <li><a class="nav-link" id="Login" href="#contact">LOGIN</a></li>
+      </ul>
     </header>
     <div class="container">
-      <section id="Home">
-        <div id="text1">
-            <img src="images/eddy2.jpg" alt="">
-          <h1>I’m Eddy Glad to see you!</h1>
-
+      <section id="intro">
+        <div id="content">
+          <div id="text1">
+            <h1>I’m Eddy <br />Glad to see you!</h1>
+            <img src="./images/eddy2.jpg" alt="" srcset="">
+          </div>
+          <p>
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me
+          </p>
+          <h4>LET’S CONNECT</h4>
+          <ul>
+            <li>
+              <a href="https://twitter.com/eddy56388406">
+                <img src="images/Vector.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/pray-eddy-shimwa-18a6751b6/">
+                <img src="images/Linkedin icon.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/EddyShimwa">
+                <img src="" />
+              </a>
+            </li>
+            <li>
+              <a href="N/A"> <img src="images/Vector (2).png" /> </a>
+            </li>
+            <li>
+              <a href="N/A"> <img src="images/Vector (3).png" /> </a>
+            </li>
+          </ul>
         </div>
-        <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me
-        </p>
-        <h4>LET’S CONNECT</h4>
-        <ul>
-          <li>
-            <a href="https://twitter.com/eddy56388406">
-              <img src="images/Vector.png" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/pray-eddy-shimwa-18a6751b6/">
-              <img src="images/Linkedin icon.png" />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/EddyShimwa">
-              <img src="images/Vector (1).png" />
-            </a>
-          </li>
-          <li>
-            <a href="N/A"> <img src="images/Vector (2).png" /> </a>
-          </li>
-          <li>
-            <a href="N/A"> <img src="images/Vector (3).png" /> </a>
-          </li>
-        </ul>
+      </section>
+      <section id="works">
+        <div id="portfolio"></div>
+        <div id="work-item-one">
+          <img id="image" src="images/leaflet measure.png" />
+          <div>
+            <h1>Land Locator App</h1>
+            <ul id="first-list">
+              <li id="canopy">Land</li>
+              <li><img src="images/Counter.png" />Back End Dev</li>
+              <li><img src="images/Counter.png" /> 2015</li>
+            </ul>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul id="languages">
+              <li>html</li>
+              <li>CSS</li>
+              <li>javaScript</li>
+            </ul>
+            <span class="see-more-action" id="project1">See Project</span>
+          </div>
+        </div>
       </section>
       <section id="works">
         <div id="work-item-one">
-            <img src="images/Snapshoot-Portfolio.png">
-            <h1>Land Locator</h1>
-             <ul id="first-list">
-                <li id="canopy">Land</li>
-                <li><img src="images/Counter.png">Front End Dev</li>
-                <li><img src="images/Counter.png"> 2022 </li></ul>
-            <p>The web app which helps people to buy or sell land online.</p>
-            <ul id="languages">
-                <li>html</li>
-                <li>CSS</li>
-                <li>javaScript</li>
-                <li>leaflet</li>
-
+          <img id="image" src="images/routing app.webp" />
+          <div>
+            <h1>Routing app</h1>
+            <ul id="first-list">
+              <li id="canopy">Routes</li>
+              <li><img src="images/Counter.png"/> Front End Dev</li>
+              <li><img src="images/Counter.png"/> 2021</li>
             </ul>
-            <span><h>See Project</h2></span>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul id="languages">
+              <li>html</li>
+              <li>CSS</li>
+              <li>javaScript</li>
+              <li>React</li>
+            </ul>
+            <span class="see-more-action" id="project2">See Project</span>
+          </div>
         </div>
       </section>
-      <section id="About-Myself" >
-        <div id="text1">
+      <div class="my-blogs">
+        <h1>MY-BLOGS</h1>
+      </div>
+      <section id="Blogs" >
+        <div class="blog">
+          <h3>Front-end Development</h3>
+          <img src="/images/front-end-image.webp">
+        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur voluptatem, cum asperiores, provident inventore tempora quidem aperiam veniam a, explicabo excepturi fugiat illo ad quis expedita! Facilis esse quas fugit.
+        </h5>
+        <div class="blog-footer">
+        <a href="https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html">Read More</a>
+        <img src="/images/likee.png" id="like-icon" alt="">
+        <img src="/images/commentt.png" id="like-icon" alt="">
+        <img src="/images/share.jpg" id="like-icon" alt="">
+      </div>
+        </div>
+        <div class="blog">
+          <h3>Back-end Development</h3>
+          <img src="/images/front-end-image.webp">
+        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur voluptatem, cum asperiores, provident inventore tempora quidem aperiam veniam a, explicabo excepturi fugiat illo ad quis expedita! Facilis esse quas fugit.
+        </h5>
+        <div class="blog-footer">
+        <a href="https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html">Read More</a>
+        <img src="/images/likee.png" id="like-icon" alt="">
+        <img src="/images/commentt.png" id="like-icon" alt="">
+        <img src="/images/share.jpg" id="like-icon" alt="">
+      </div>
+        </div>
+      </section>
+      <section id="about">
+        <div id="About-Myself">
+          <div id="text1">
             <h1>About Me</h1>
           </div>
           <p>
-            I’m a software developer! I can help you build a product , feature or
-            website Look through some of my work and experience! If you like what
-            you see and have a project you need coded, don’t hestiate to contact
-            me
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me!
           </p>
           <h4>LET’S CONNECT</h4>
           <ul>
@@ -112,32 +191,90 @@
             </li>
           </ul>
           <span>Get my resume</span>
+        </div>
+        <div id="Languages">
+          <span
+            ><h3>Skills</h3>
+            <img src="images/down-button.png"
+          /></span>
+          <ul id="languages-list">
+            <li>
+              <img src="images/js-icon.png" />
+              <h3>javaScript</h3>
+            </li>
+            <li>
+              <img src="images/html-icon.png" />
+              <h3>HTML</h3>
+            </li>
+            <li>
+              <img src="images/css-icon.png" />
+              <h3>CSS</h3>
+            </li>
+          </ul>
+          <hr />
+        </div>
       </section>
-      <section id="Languages">
-            <h3>SKILLS</h3>
-               <ul id="languages-list" >
-                  <li><h3>HTML</h3><img src="images/html-icon.png"></li>
-                  <li><h3>CSS</h3><img src="images/css-icon.png"></li>
-                  <li><h3>javaScript</h3><img src="images/js-icon.png"></li>
-                  <li><h3>LeafletJS</h3><img src="images/"></li>
-                  <li><h3>BootStrap</h3><img src="images/html-icon.png"></li>
-                  <li><h3>React</h3><img src="images/html-icon.png"></li>
-                  <li><h3>GitHub</h3><img src="images/html-icon.png"></li>
-                  <li><h3>Python</h3><img src="images/html-icon.png"></li>
-               </ul>
-    </section>
-   
-    <footer class="contact-form">
-      <div class="text-container">
-        <h2 class="primary-text">Contact me</h2>
-        <p class="paragraph-details">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
+
+      <footer class="contact-form" id="contact">
+        <div class="text-container">
+          <h2 class="primary-text">Contact me</h2>
+          <p class="paragraph-details">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+        <form
+          class="form_container"
+          id="contact-form"
+          method="POST"
+          action="https://formspree.io/f/mqkjjekg"
+        >
+          <input
+            class="form_input"
+            id="name"
+            type="text"
+            placeholder="Enter name..."
+            required
+            maxlength="30"
+            name="user_name"
+          />
+          <input
+            class="form_input"
+            id="email"
+            type="email"
+            placeholder="email@example.com"
+            name="user_email"
+            required
+          />
+          <textarea
+            class="form_text_area"
+            id="message"
+            cols="30"
+            rows="10"
+            maxlength="500"
+            name="user_message"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <small id="form-info"></small>
+          <button type="submit" class="btn_submit">Get It Touch</button>
+        </form>
+      </footer>
+
+      <div class="login-container">
+        <form
+        class="log_container"
+        id="contact-form"
+        method="POST"
+        action="https://formspree.io/f/mqkjjekg"
+      >
+      <div class="introo">
+        <img src="/images/eddy2.jpg" width="60px" alt=""><h2>Please Login</h2>
       </div>
-      <form action="https://formspree.io/f/xyyvbnal" method="post">
         <input
+          class="login_input"
+          id="name"
           type="text"
           placeholder="Enter name..."
           required
@@ -145,25 +282,28 @@
           name="user_name"
         />
         <input
+          class="login_input"
+          id="email"
           type="email"
           placeholder="email@example.com"
           name="user_email"
           required
         />
-        <textarea
-          cols="30"
-          rows="10"
-          maxlength="500"
-          name="user_message"
-          placeholder="Write your message here"
-          required
-        ></textarea>
-        <button type="submit" class="form-btn">Get in Touch</button>
+        <input
+        class="login_input"
+        id="email"
+        type="email"
+        placeholder="email@example.com"
+        name="user_email"
+        required
+      />
+        <small id="form-info"></small>
+        <button type="submit" class="submit_btn">Log in</button>
+        <h6>Forgot Password?</h6>
       </form>
-    </footer>
-    <div class="footer-two">
-        <h6>&#169 Copyright Eddy 2022</h6>
+      <img src="/images/cross-icon.png" width="10px" height="10px" id="cross-Icon-login"  alt="X" srcset="">
     </div>
-  </div>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
