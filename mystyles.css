@@ -59,6 +59,11 @@ a {
   display: none;
 }
 
+.nav-link {
+  border-bottom: 1px solid rgb(146, 146, 237);
+  width: 100%;
+}
+
 .mobile-nav {
   margin: 0;
   padding: 50px 0;
@@ -75,6 +80,10 @@ a {
   background: rgba(33, 41, 114, 0.7);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   height: 100%;
+}
+
+.mobile-nav img {
+  border-radius: 50%;
 }
 
 .df {
@@ -687,6 +696,7 @@ input:focus {
     height: 80px;
     align-items: center;
     position: fixed;
+    justify-content: space-between;
     border-bottom: 1px solid rgba(242, 242, 242, 0.067);
     box-shadow: 5px -12px 34px 2px;
   }
@@ -698,21 +708,25 @@ input:focus {
   .nav-list {
     display: flex;
     gap: 32px;
-    margin-right: 10%;
+    margin: auto;
     color: #5968f5;
+    align-items: center;
   }
 
-  .nav-list span {
-    /* display: flex; */
+  .nav-list a {
     padding-right: 20px;
-    width: 120px;
-    padding: 2;
+    padding: 2%;
+    color: rgb(24, 9, 225);
   }
 
-  .nav-list span:hover {
+  .nav-list a:hover {
+    position: relative;
     padding-right: 20px;
-    width: 120px;
-    margin-bottom: 3px solid #5968f5;
+    padding: 2%;
+    color: white;
+    background-color: #5968f5;
+    border-radius: 10px;
+    transition: 0.5s;
   }
 
   .hamburger {
@@ -729,9 +743,9 @@ input:focus {
   }
 
   #Login {
+    display:flex;
     background-color: #5968f5;
-    width: 20%;
-    text-align: center;
+    padding:1% 8%;    align-self: center;
     border-radius: 5px;
     height: 40px;
     color: rgb(255, 255, 255);
