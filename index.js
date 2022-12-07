@@ -39,8 +39,8 @@ const worksData = [
   },
   {
     id: 'project3',
-    title: 'Tonic',
-    frame: ['CANOPY', 'Back End Dev', 2015],
+    title: 'Land Locator',
+    frame: ['CANOPY', 'Front-end Dev', 2022],
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl: '../images/feature-img1.png',
     projectDetails:
@@ -50,8 +50,8 @@ const worksData = [
   },
   {
     id: 'project4',
-    title: 'Multi-Post Stories',
-    frame: ['FACEBOOK', 'FULL STACK DEV', 2015],
+    title: 'Land-Locator',
+    frame: ['FACEBOOK', 'FULL STACK DEV', 2022],
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl: './images/feature-img4.png',
     projectDetails:
