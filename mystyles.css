@@ -4,7 +4,7 @@
 
 body {
   font-family: Poppins, sans-serif;
-  background-color: #e5e5e5;
+  background-color: #f6f6f6;
   justify-items: center;
   margin: 0;
 }
@@ -623,6 +623,7 @@ input:focus {
   width: 5%;
 }
 
+
 .act-btn:hover {
   background-color: #000530;
   color: #fff;
@@ -678,7 +679,7 @@ input:focus {
 
 @media (min-width: 600px) {
   body {
-    background: rgb(248, 250, 248);
+    background-color: #e8edfe8d;
   }
 
   .container {
@@ -756,6 +757,14 @@ input:focus {
     padding: 12% 10%;
     border-radius: 0 0 0 100px;
     background-image: url("images/header-bg.svg");
+  }
+
+  #intro p {
+    width: 80%;
+  }
+
+  #intro ul {
+    margin: auto;
   }
 
   #intro #content {
@@ -850,8 +859,22 @@ input:focus {
   }
 
   #like-icon {
-    width: 10%;
+    width: 12%;
+    /* background-color: #f5f5f5; */
+    padding: 4px;
+    border-radius: 50%;
   }
+
+  #like-icon:hover {
+    width: 12%;
+    background-color: #ffffff;
+    padding: 8px;
+    border: 1px solid rgb(75, 73, 215);
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+
+
 
   #view-more-blogs {
     width: 30%;
