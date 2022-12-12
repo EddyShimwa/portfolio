@@ -166,10 +166,33 @@ actionsBtn.forEach((btn) => {
 const loginBtn = document.querySelector('#Login');
 const loginModal = document.querySelector('.login-container');
 const closeModal  = document.querySelector('#cross-Icon-login')
-// loginModal.style.dislay = 'none';
 loginBtn.addEventListener('click', () => {
   loginModal.style.display = 'flex';
 })
-closeModal.addEventListener('click', () => {
-  loginModal.style.display = 'none';
-})
+// closeModal.addEventListener('click', () => {
+//   // loginModal.style.display = 'none';
+// })
+
+
+// Validation of the form
+function onSubmit(e) {
+  const inputEmail = document.getElementById('email');
+  const formInfo = document.getElementById('form-info');
+  const email = inputEmail.value;
+
+  console.log("yesss");
+
+  // Check if email value is lowercase or not
+  if (email !== email.toLowerCase()) {
+    e.preventDefault();
+    inputEmail.classList.add('invalid');
+    formInfo.classList.add('error');
+    formInfo.innerText = 'Error submitting form! The Email should be in lower case!!';
+  } else {
+    inputEmail.classList.remove('invalid');
+    formInfo.classList.remove('error');
+  }
+}
+
+const contactForm = document.getElementById('contact-form');
+contactForm.addEventListener('submit', onSubmit);

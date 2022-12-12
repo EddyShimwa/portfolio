@@ -683,7 +683,7 @@ input:focus {
   }
 
   .container {
-    width: -webkit-fill-available;
+    width: 100%;
     background-image: none;
     top: 0;
   }
@@ -773,7 +773,6 @@ input:focus {
   }
 
   #works {
-    /* width: px; */
     display: flex;
     flex-direction: row;
     margin: 0 142px;
@@ -860,7 +859,6 @@ input:focus {
 
   #like-icon {
     width: 12%;
-    /* background-color: #f5f5f5; */
     padding: 4px;
     border-radius: 50%;
   }
@@ -972,8 +970,6 @@ input:focus {
     padding-left: 15px;
   }
 
-
-  /* login_modal */
 
   .login-container {
     display: none;
