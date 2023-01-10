@@ -668,7 +668,7 @@ input:focus {
 
 .error {
   background: #f66;
-  color: #742020;
+  color: #ffffff;
   padding: 10px;
   border-radius: 8px;
 }
@@ -875,10 +875,10 @@ input:focus {
 
 
   #view-more-blogs {
-    width: 30%;
+    width: 14%;
     background-color: #5968f5;
     color: white;
-    margin-left: 86%;
+    margin: auto;
     padding: 15px;
   }
 
@@ -937,12 +937,11 @@ input:focus {
   }
 
   .contact-form {
-    padding: 142px 435px 127px;
+    padding: 0 30%;
     border-radius: 100px 0 0 0;
     margin-top: -210px;
     background-size: contain;
     background-image: url(/images/contact-form-bg.svg);
-    background-position-x: center;
   }
 
   .contact-form .text-container h2 {
@@ -1059,4 +1058,21 @@ input:focus {
     text-align: center;
     text-decoration: underline;
   }
+#Tasks {
+  display: flex;
+  width: 100%;
+  justify-content:space-between ;
+  padding: 3% 0;
+}
+
+#Tasks li {
+  border: 1px solid rgb(67, 67, 172);
+  width: fit-content;
+  text-align: center;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #6070ff;
+  color: #fff;
+}
+
 }

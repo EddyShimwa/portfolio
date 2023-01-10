@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blogs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="blogs.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/images/eddy2.jpg" alt="">
+            <h3>Admin</h3>
+        </nav>
+    </header>
+    <h1 class="h1">My blogs</h1>
+    <h2 class="newbook-h2">Add a new Blog</h2>
+<div id="blog-form">
+    <input type="text" id="blog-title" placeholder="Enter blog title...">
+    <input type="file" id="blog-image" accept="image/*">
+    <textarea id="blog-content" placeholder="Enter blog content..."></textarea>
+    <button id= "createBlog">Create Blog</button>
+  </div>
+  <footer>
+  <!-- <h5>&#169 copyright Eddy 2022 Allrights reserved</h5></footer> -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+    <!-- <script src="./modules/blogs.js" type="module"></script> -->
+    <script src="./modules/blogdom.js" type="module"></script>
+</body>
+</html>

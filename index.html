@@ -27,7 +27,6 @@
           <a href="#about"><span>About</span></a>
           <a href="#contact"><span>Contact</span></a>
           <span id="Login">Login</span>
-          <span> <img src="./images/eddy2.jpg" width="40px" style="border-radius: 50%;" alt=""></span>
         </div>
       </nav>
       <ul class="mobile-nav">
@@ -128,33 +127,8 @@
         <h1>MY-BLOGS</h1>
       </div>
       <section id="Blogs" >
-        <div class="blog">
-          <h3>Front-end Development</h3>
-          <img src="images/front-end-image.webp">
-        <h5>Frontend development is the branch of web development that concentrates on user experience. In order to ensure that the data is presented in an understandable manner, it entails converting the code created by backend developers into a graphical interface.
-        </h5>
-        <div class="blog-footer">
-        <a href="https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html">Read More</a>
-        <img src="images/likee.png" id="like-icon" alt="like">
-        <img src="images/commentt.png" id="like-icon" alt="">
-        <img src="images/share.jpg" id="like-icon" alt="">
-      </div>
-        </div>
-        <div class="blog">
-          <h3>Back-end Development</h3>
-          <img src="images/front-end-image.webp">
-        <h5>Back-end development means working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.
-        </h5>
-        <div class="blog-footer">
-        <a href="https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html">Read More</a>
-        <img src="images/likee.png" id="like-icon" alt="">
-        <img src="images/commentt.png" id="like-icon" alt="">
-        <img src="images/share.jpg" id="like-icon" alt="">
-      </div>
-        </div>
-
-        <span id="view-more-blogs">See more Blogs</span>
       </section>
+      <span id="view-more-blogs">See more Blogs</span>
       <section id="about">
         <div id="About-Myself">
           <div id="text1">
@@ -231,7 +205,6 @@
           class="form_container"
           id="contact-form"
           method="POST"
-          action="https://formspree.io/f/mqkjjekg"
         >
           <input
             class="form_input"
@@ -266,7 +239,7 @@
         </form>
       </footer>
 
-      <!-- <div class="login-container">
+      <div class="login-container">
         <form
         class="log_container"
         id="contact-form"
@@ -293,12 +266,16 @@
         required
       />
         <small id="form-info"></small>
-        <button type="submit" class="submit_btn">Log in</button>
+        <button type="submit" class="submit_btn"> <a href="dashBoard.html">  Log in</a></button>
         <h6>Forgot Password?</h6>
+        <h6>Dont have an account? Create an account</h6>
       </form>
       <img src="images/cross-icon.png" id="cross-Icon-login"  alt="X" srcset="">
-    </div> -->
     </div>
-    <script src="index.js"></script>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- <script src="firebase.js"></script> -->
+    <script src="index.js" type="module"></script>
   </body>
 </html>
